@@ -5,6 +5,7 @@ import IconStats from "./Components/Pages/IconStats";
 import RootSection from "./Components/Pages/RootSection";
 import SmileTransformations from "./Components/Pages/SmileTransformations";
 import WhyChooseClove from "./Components/Pages/WhyChooseClove";
+import TestimonialPage from "./Components/Pages/TestimonialPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <RootSection />
       <SmileTransformations />
       <WhyChooseClove />
+      <TestimonialPage />
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import dental from "../../assets/dental.jpg"; // Check path
+import dental from "../../assets/dental.jpg"; // Ensure the image path is correct
 
 const HeroSection = () => {
   return (
     <section className="w-full bg-white pt-16 pb-10 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
-        {/* Left: Doctor Image with bigger width */}
+        {/* Left: Doctor Image */}
         <div className="relative md:col-span-2 rounded-lg overflow-hidden shadow-lg">
           <img
             src={dental}
@@ -29,9 +29,9 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right: Compact Consultation Form */}
+        {/* Right: Responsive Form */}
         <div
-          className="bg-[#fff8f1] p-5 rounded-xl shadow-md w-full max-w-md mx-auto flex flex-col justify-center"
+          className="bg-[#fff8f1] p-5 rounded-xl shadow-md w-full max-w-md mx-auto flex flex-col justify-center text-center md:text-left"
           style={{ minHeight: "480px" }}
         >
           <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-3">
@@ -64,7 +64,7 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="flex items-start gap-2 text-xs md:text-sm">
+            <div className="flex items-start gap-2 text-xs md:text-sm text-left">
               <input type="checkbox" id="agree" className="mt-1" />
               <label htmlFor="agree" className="text-gray-700">
                 I agree to CLOVE Dental's{" "}

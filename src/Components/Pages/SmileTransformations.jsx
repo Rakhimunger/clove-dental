@@ -30,11 +30,11 @@ const transformations = [
 const SmileTransformations = () => {
   return (
     <div className="bg-gradient-to-b from-white to-orange-50 py-16 px-4 sm:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+      <div className="max-w-7xl mx-auto text-center px-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 whitespace-nowrap overflow-auto">
           Real Smiles, Real Transformations
         </h2>
-        <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto">
+        <p className="text-gray-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
           Witness the incredible smile transformations by our expert dentists.
         </p>
       </div>

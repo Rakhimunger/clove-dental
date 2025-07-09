@@ -4,11 +4,11 @@ import teeth from "../../assets/teeth.jpg";
 const RootCanalSection = () => {
   return (
     <div className="bg-white py-12 px-4 sm:px-6 lg:px-20">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
+      <div className="max-w-4xl mx-auto text-center px-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-snug whitespace-nowrap overflow-auto">
           Types of Root Canal Treatments
         </h2>
-        <p className="mt-3 text-base sm:text-lg text-gray-600">
+        <p className="mt-3 text-sm sm:text-base md:text-lg text-gray-600">
           In a root canal, the dentist removes infected pulp, cleans the tooth,
           and fills it with special material.
         </p>
