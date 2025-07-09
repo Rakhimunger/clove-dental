@@ -13,7 +13,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="text-orange-500 text-3xl font-bold italic">
-          clove<span className="text-black "></span>
+          clove
+          <span className="text-black ">
+            {" "}
+            <span> :) </span>{" "}
+          </span>
           <div className="text-xs font-normal tracking-widest text-black  leading-none">
             DENTAL
           </div>

@@ -8,6 +8,7 @@ import WhyChooseClove from "./Components/Pages/WhyChooseClove";
 import TestimonialPage from "./Components/Pages/TestimonialPage";
 import AppointmentForm from "./Components/Pages/AppointmentForm";
 import FeatureSection from "./Components/Pages/FeatureSection";
+import GoogleReviews from "./Components/Pages/GoogleReviews";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <TestimonialPage />
       <AppointmentForm />
       <FeatureSection />
+      <GoogleReviews />
     </div>
   );
 }
