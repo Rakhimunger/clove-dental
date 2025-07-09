@@ -30,7 +30,7 @@ const WhyChooseClove = () => {
                 className="flex justify-between items-start text-gray-800 text-sm sm:text-base font-medium border-b pb-2 border-dashed border-orange-200"
               >
                 <span>{reason}</span>
-                <span className="text-orange-500 font-bold text-lg">+</span>
+                <span className="text-orange-600 font-bold text-lg">+</span>
               </li>
             ))}
           </ul>
